@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Noto+Sans+JP:wght@100&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.corps, .entete{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+i{
+    margin-right: 5px;
+}
+
+h2{
+    padding: 2px;
+    background-color: lightblue;
+    border-radius: 10px;
+    margin-top: auto;
+}
+
+h2 p, .date{
+    display: inline-block;
+}
+
+.date{
+    float: right;
+}
+
+.italique{
+    font-style: italic;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    list-style-type: none;
+}
+
+.fas.fa-circle.blue{
+  color: lightblue;
+  margin: 0%;
+}
+
+.fas.fa-circle.gray{
+    color:  lightgray;
+    margin: 0%;
+  }
+  
+.interet .ul{
+    display: flex;
+    justify-content: space-around;
+}
